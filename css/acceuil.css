@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin-top: 2vh;
+}
+
+.headerContent {
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.localisation {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.rue {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time {
+    margin: 0;
+    color: #bac3c3;
+}
+
+.adresse {
+    margin: 0;
+    font-weight: bolder;
+}
+
+.headerContent .gps {
+    width: 10%;
+}
+
+.headerContent .livreur {
+    width: 15%;
+}
+
+.headerContent .user {
+    width: 15%;
+}
+
+.headerContent .chevronBas {
+    width: 12%;
+}
+
+
+
+
+
+
+.servicesCommandes {
+    margin-top: 1vh;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.livraison {
+    width: 30%;
+    height: 3.5vh;
+    background-color: #00ccbc;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emporter {
+    width: 30%;
+    height: 3.5vh;
+    color: #00ccbc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.livraisonP {
+    margin: 0;
+}
+
+
+
+
+.recherche {
+    margin-top: 1vh;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.research {
+    background-color: #e3e3e3;
+    border-radius: 5px;
+    padding-right: 10vw;
+    width: 85%;
+    height: 4.5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lieux {
+    margin: 0;
+    color: #9c9c9c;
+}
+
+.reglages {
+    width: 10%;
+    height: 4vh;
+}
+
+
+
+
+.offres {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.carre {
+    height: 8vh;
+    width: 20vw;
+    border-radius: 5px;
+    background-image: url('../img/grocery-bag.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.liens {
+    margin: 1vh;
+    color: white;
+    font-weight: 600;
+    font-size: smaller;
+}
+
+.reduction {
+    background-image: url('../img/icons8-price-tag-64.png');
+}
+
+.petitDej {
+    background-image: url('../img/petitDej.webp');
+}
+
+.pizzas {
+    background-image: url('../img/pizza.webp');
+}
